@@ -1,0 +1,44 @@
+.details-bg-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:18px;
+}
+.details-container{
+    width:79%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.book-image {
+    width:350px;
+    height:360px;
+    margin-right: 20px;
+  }
+  .book-title {
+    font-size: 28px;
+    color: #262727;
+    font-weight: 600;
+    font-family: "roboto";
+    margin-bottom: 4px;
+  }
+  .book-author {
+    font-size:20px;
+    color: #262727;
+    font-weight: 500;
+    font-family: "roboto";
+    margin-bottom: 4px;
+    margin-bottom: 16px;
+  }
+  .book-des {
+    font-family: "roboto";
+    line-height:22px;
+    font-size: 18px;
+    color:rgb(48, 44, 44);
+  }
+  .author-name{
+    font-weight:bold;
+  }
+ 

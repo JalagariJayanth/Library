@@ -1,0 +1,56 @@
+.books-bg-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.user-input{
+    height:40px;
+    width:360px;
+    outline:none;
+    border: 2px solid rgba(11, 11, 11, 0.431);
+    border-radius:10px;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 15px;
+    padding-left:10px;
+ 
+}
+.books-container{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+.book-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 50px;
+  }
+.img{
+    width:220px;
+    height:260px;
+}
+.book-title{
+    font-family: "Roboto";
+  font-weight: 600;
+  font-size:18px;
+  color: #262626;
+  width: 200px;
+}
+.book-author{
+    font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626d5;
+  width: 200px;
+}
+.link{
+  text-decoration:none;
+}
